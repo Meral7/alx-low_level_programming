@@ -1,2 +1,2 @@
 # alx-low_level_programming
-my first code in C programming
+my second code in C programming

@@ -1,29 +1,29 @@
 #include "main.h"
 /**
- * _strcat - concatenats two strings
- * @mera: first string
- * @alx: second string
+ * _strncat - concatenating two strings
+ * @mera: input
+ * @alx: input
+ * @m: input
  *
- * Return: concatenated string
+ * Return: mera
  */
-char *_strcat(char *mera, char *alx)
+char *_strncat(char *mera, char *alx, int m)
 {
-	int i;
-	int j;
+	int k;
+	int l;
 
-	i = 0;
-	while (mera[i] != '\0')
+	k = 0;
+	while (mera[k] != '\0')
 	{
-		i++;
+		k++;
 	}
-	j = 0;
-	while (alx[j] != '\0')
+	l = 0;
+	while (l < m && alx[l] != '\0')
 	{
-		mera[i] = alx[j];
-		i++;
-		j++;
+	mera[k] = alx[l];
+	k++;
+	l++;
 	}
-
-	mera[i] = '\0';
+	mera[k] = '\0';
 	return (mera);
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_chessboard - A function to print a chess board
- * @a: the multi dim array
+ * print_chessboard - printing a chess board
+ * @a: dims array
  * Return: void
  */
 void print_chessboard(char (*a)[8])

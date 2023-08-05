@@ -4,7 +4,7 @@
 /**
  * main - print out the change that needs to given
  * @argc: args count
- * @argv: agrgs 
+ * @argv: agrgs
  * Return: 0 or 1
  */
 
